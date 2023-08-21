@@ -9,8 +9,10 @@ function toogleMode() {
   if (html.classList.contains("light")) {
     // se estiver light mode, adicionar a imagem 'light'
     img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("alt", "Foto do Mayk de óculos escuros")
   } else {
     // se não estiver light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("alt", "Foto do Mayk")
   }
 }
