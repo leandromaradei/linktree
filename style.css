@@ -23,7 +23,8 @@ body * {
 
 #container {
   width: 360px;
-  margin: 56px auto 0px auto;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
